@@ -1,0 +1,14 @@
+FROM python:3.9-alpine
+
+WORKDIR /usr/kanban
+RUN mkdir -p data
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+COPY .flaskenv-prod .flaskenv
+
+
+EXPOSE 5000
+CMD [ "flask", "run", "--host=0.0.0.0" ]

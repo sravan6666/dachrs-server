@@ -1,0 +1,19 @@
+FLASK_ENV=production
+FLASK_APP=App.py
+APP_DEBUG_MODE=False
+MONGO_CONNECTION_STR=mongodb://kanbandachrs:UfYcBuLcWSapeQi7PvakgneeWyOe6G1Hn4O8e4qiwLvI6czynHyOXCy75xlFNofAevNbbQ9MdheRKlPaMGXQow==@kanbandachrs.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@kanbandachrs@
+MONGO_DB=kanban
+MONGO_TASKS_COLLECTION=tasks
+MONGO_PROJECT_COLLECTION=projects
+MONGO_EPIC_COLLECTION=epic
+MONGO_STORY_COLLECTION=story
+MONGO_PROGRAM_COLLECTION=program
+MONGO_USERS_COLLECTION=user
+MONGO_ROLES_COLLECTION=role
+MONGO_TASKBOARD_COLLECTION=task_board
+MONGO_TASKBOARDSTATUS_COLLECTION=task_board_status
+MONGO_COMPANY_COLLECTION=company
+MONGO_TEAM_COLLECTION=team
+DEFAULT_TASKBOARD_COLUMNS=Backlog,To-Do,In Progress,Completed
+FILE_LOCAL_PATH=./data
+SENDGRID_API_KEY=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
